@@ -62,3 +62,41 @@ class Solution:
 
         return False
 
+
+############################### Use following for Practice ###############################
+
+# ----------------------------------------------------------------------
+# 1. Brute Force
+# Time: O(n²), Space: O(1)
+# try every pair — nested loop, no extra space allowed
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+
+# ----------------------------------------------------------------------
+# 2. HashSet with Early Return
+# Time: O(n), Space: O(n)
+# use a set — return True the moment you see a number you've already seen
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+
+# ----------------------------------------------------------------------
+# 3. Set Dedup One-Liner
+# Time: O(n), Space: O(n)
+# solve in one line — compare lengths before and after deduplication
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+
+# ----------------------------------------------------------------------
+# 4. Sort then Compare Neighbors
+# Time: O(n log n), Space: O(1)
+# no set allowed — sort first, then find duplicates by comparing neighbors
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
