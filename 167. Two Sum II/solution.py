@@ -42,3 +42,24 @@ class Solution:
                     left = mid + 1
                 else:
                     right = mid - 1
+
+
+############################### Use following for Practice ###############################
+
+# ----------------------------------------------------------------------
+# 1. Two Pointers
+# Time: O(n), Space: O(1)
+# use two pointers — exploit the sorted order, shrink from both ends
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def twoSum(self, numbers: List[int], target: int) -> List[int]:
+
+# ----------------------------------------------------------------------
+# 2. Binary Search
+# Time: O(n log n), Space: O(1)
+# no two pointers — for each element, binary search for its complement
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def twoSum(self, numbers: List[int], target: int) -> List[int]:
