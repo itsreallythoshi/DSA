@@ -68,3 +68,46 @@ class Solution:
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
+
+############################### Use following for Practice ###############################
+
+# ----------------------------------------------------------------------
+# 1. Two hashmaps
+# General frequency-count solution
+# Time: O(n), Space: O(n)
+# use two maps - general solution - creating a frequency map
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+
+# ---------------------------------------------------------------------- 
+# 2. One hashmap, increment/decrement with early fail
+# Best interview version
+# Time: O(n), Space: O(n)
+# one hashmap - increment and decrement - variation 1 (early fail)
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+
+# ----------------------------------------------------------------------
+# 3. One hashmap, increment/decrement then all(...) check
+# Clean compact variant
+# Time: O(n), Space: O(n)
+# one hashmap - increment and decrement - variation 2 - check in end. no early fail
+# tighter syntax. same big-o, slightly less efficient in practice
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+
+# ----------------------------------------------------------------------
+# 4. Sort both strings
+# Shortest clean solution
+# Time: O(n log n), Space: depends on sorting details
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+
