@@ -56,3 +56,31 @@ class Solution:
                 right -= 1
 
 
+############################### Use following for Practice ###############################
+
+# ----------------------------------------------------------------------
+# 1. Brute Force
+# Time: O(n²), Space: O(1)
+# try every pair — nested loop, no extra space
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+# ----------------------------------------------------------------------
+# 2. Hash Map
+# Time: O(n), Space: O(n)
+# one pass with a hashmap — store seen numbers, look up the complement
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+# ----------------------------------------------------------------------
+# 3. Sort + Two Pointers
+# Time: O(n log n), Space: O(n)
+# sort + two pointers — preserve original indices before sorting
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
