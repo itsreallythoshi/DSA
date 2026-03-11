@@ -42,3 +42,24 @@ class Solution:
             s = s.replace("()", "").replace("[]", "").replace("{}", "")
 
         return s == ""
+
+
+############################### Use following for Practice ###############################
+
+# ----------------------------------------------------------------------
+# 1. Stack
+# Time: O(n), Space: O(n)
+# use a stack — push opening brackets, pop and match on closing brackets
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isValid(self, s: str) -> bool:
+
+# ----------------------------------------------------------------------
+# 2. Repeated String Replacement
+# Time: O(n²), Space: O(n)
+# no stack allowed — repeatedly strip matched pairs until string stops changing
+# ----------------------------------------------------------------------
+
+# class Solution:
+#     def isValid(self, s: str) -> bool:
